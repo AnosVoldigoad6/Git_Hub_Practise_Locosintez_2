@@ -324,7 +324,7 @@ const Home = () => {
               <div className="flex items-center">
                     <div className="flex justify-center items-center ">
                       <img
-                        src={el.avatar}
+                        src={el.img}
                         className="w-[70px] h-[70px] rounded-[50%] ml-[20px]"
                       />
                     </div>
@@ -366,7 +366,7 @@ const Home = () => {
             <IconButton>
           <BorderColorIcon onClick={() => {
          handleClickOpenEdit();
-         setImgEdit(el.avatar);
+         setImgEdit(el.img);
          setNameEdit(el.name);
          setEmailEdit(el.email);  
          setCityEdit(el.city);
